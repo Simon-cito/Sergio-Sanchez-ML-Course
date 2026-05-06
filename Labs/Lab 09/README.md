@@ -1,4 +1,4 @@
-Lab 9: Ensemble Methods – The Wisdom of the Crowd
+#Lab 9: Ensemble Methods – The Wisdom of the Crowd
 Overview
 This lab explores Ensemble Methods, a powerful machine learning strategy that combines the predictions of multiple individual models to create a final result that is more accurate and robust. I implemented and compared a single Decision Tree against a Random Forest (a "committee" of trees) to observe how diversity in modeling leads to superior performance.
 
