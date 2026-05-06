@@ -1,7 +1,3 @@
-For Assignment 10, you are moving into Unsupervised Learning. This is a powerful addition to your portfolio because it shows you can find patterns in data even when you don't have a "target" or "correct answer" to guide the model.
-
-Here is the professional README.md for your Assignment 10 folder.
-
 Assignment 10: Unsupervised Learning – Clustering & Dimensionality Reduction
 The Problem
 Most machine learning is supervised, meaning the AI is told the "right" answer during training. However, in many real-world scenarios, we have vast amounts of data with no labels at all. The goal of this assignment was to use Unsupervised Learning to discover hidden structures within the Iris dataset, specifically focusing on grouping similar samples and simplifying complex features.
