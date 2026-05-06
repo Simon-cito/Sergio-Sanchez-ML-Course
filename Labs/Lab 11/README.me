@@ -1,0 +1,27 @@
+Lab 11: Hyperparameter Tuning & Automated Machine Learning (AutoML)
+Overview
+This lab focuses on model optimization. While previous labs focused on building initial models, this lab explores the science of "tuning" them for peak performance. I implemented strategies to find the perfect settings (hyperparameters) for an algorithm and experimented with AutoML to see how AI can be used to build better AI.
+
+Key Learning Objectives
+Hyperparameters vs. Parameters: Learned the distinction between what a model learns (parameters) and the settings we define before training (hyperparameters), such as the depth of a tree or the number of estimators in a forest.
+
+Optimization Strategies: Practiced two major tuning methods:
+
+Grid Search: An exhaustive search through a manually specified subset of the hyperparameter space.
+
+Random Search: A more efficient approach that samples configurations at random, often finding high-performing settings faster than Grid Search.
+
+AutoML (AutoGluon): Introduced to Automated Machine Learning, where a system automatically handles data preprocessing, model selection, and hyperparameter optimization in a "leaderboard" format.
+
+Tools & Libraries
+Scikit-Learn: Used for GridSearchCV and RandomizedSearchCV.
+
+AutoGluon: Used to demonstrate the power of TabularPredictors in an AutoML workflow.
+
+Challenges & Insights
+The Computational Trade-off: I discovered that Grid Search is powerful but "expensive" in terms of time and processing power. Random Search taught me that sometimes a "good enough" sample is more practical for real-world engineering than trying every single possibility.
+
+The "Black Box" of AutoML: While AutoML (like AutoGluon) is incredibly fast and often more accurate than manual tuning, I realized the importance of the human "Ranger" in the loop to interpret the results and ensure the final model is grounded in reality.
+
+"Ranger" Connection
+In my Microscope Buddy project, tuning is the difference between a robot that "works" and a robot that is "precise." If the hyperparameters for my object detection model aren't tuned, the robot might be too slow or too sensitive. By understanding AutoML, I can potentially allow my robotics platform to self-calibrate, finding the best model settings automatically based on the specific lighting or sample type it encounters in the field.
