@@ -1,7 +1,3 @@
-Since Assignment 7 is based on Advanced Model Evaluation, this README needs to show that you are a rigorous "Quality Control" engineer. It proves you understand that high accuracy isn't enough—you have to ensure the model is reliable and fair.
-
-Here is the professional README.md for your Assignment 07 folder.
-
 Assignment 07: Advanced Model Evaluation & Validation
 The Problem
 In real-world Machine Learning, simple "Accuracy" can be a deceptive metric. If a dataset is imbalanced, a model can achieve 90% accuracy just by guessing the majority class every time. The goal of this assignment was to implement high-fidelity evaluation tools to verify the true predictive power and reliability of my Titanic survival model.
