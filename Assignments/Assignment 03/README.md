@@ -1,3 +1,4 @@
+Assingment 03
 The Problem
 In this assignment, the goal was to develop a predictive model that could accurately categorize different types of wine based on their chemical composition. Unlike basic binary classification, this required the model to distinguish between three distinct categories using 13 different chemical features (such as Alcohol, Malic Acid, and Ash).
 
